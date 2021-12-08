@@ -1,0 +1,62 @@
+{
+  "name": "pmochine/laravel-tongue",
+  "description": "🎉 Finally a subdomain localization that works how you want it to work. 🌐",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "tongue",
+    "localization",
+    "subdomain",
+    "i18n",
+    "package",
+    "language"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Philipp Mochine",
+      "email": "mail@philippmochine.com"
+    }
+  ],
+   "require": {
+    "php": ">=7.2",
+    "jeremykendall/php-domain-parser": "^5.7",
+    "laravel/framework": "^7.22.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~5.0",
+    "orchestra/testbench-browser-kit": "~5.0",
+    "phpunit/phpunit": "^8.5 || ^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmochine\\LaravelTongue\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pmochine\\LaravelTongue\\Tests\\": "tests"
+    },
+    "files": [
+      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pmochine\\LaravelTongue\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}

@@ -1,0 +1,56 @@
+:root {
+	--main-text-color: white;
+	--main-red-color: rgb(231, 63, 63);
+}
+html {
+	background: #072620 url("../../images/quiz-background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	color: var(--main-text-color);
+}
+
+h1 {
+	color: rgba(209, 207, 207, 0.7);
+}
+
+main {
+	color: var(--main-text-color);
+}
+main h2 {
+	border-bottom: 1px solid white;
+}
+
+#progressBar {
+	background-color: rgba(206, 202, 202, 0.26);
+}
+
+#progressBar > div {
+	background-color: white;
+}
+
+#progressSubmitContainer input[type="submit"] {
+	background-color: var(--main-red-color);
+	color: white;
+	border: none;
+}
+
+ul li label {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul li input[type="checkbox"] + label::before {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul li input[type="checkbox"]:checked + label::before {
+	background-color: var(--main-red-color);
+}
+ul li input[type="checkbox"]:checked + label {
+	background-color: var(--main-red-color);
+}

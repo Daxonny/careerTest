@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1000px) {
+	html {
+		font-size: 10px;
+	}
+
+	#languages ul li img {
+		width: 20px;
+		height: 15px;
+	}
+}

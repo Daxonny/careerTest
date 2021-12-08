@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+	:root {
+		font-size: 8px;
+	}
+}
+#footer {
+	height: 100px;
+}

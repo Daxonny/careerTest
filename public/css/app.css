@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/vendor/material-icons/iconMaterialIcons-Regular.eot?0c90c0f933b81e0a0b961608c10d0eb9);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/fonts/vendor/material-icons/iconMaterialIcons-Regular.woff2?a8c7cc2ebe47fe62aa8f350ebb736979) format("woff2"), url(/fonts/vendor/material-icons/iconMaterialIcons-Regular.woff?731cfdfe786da7f3e927978333eb54b2) format("woff"), url(/fonts/vendor/material-icons/iconMaterialIcons-Regular.ttf?054ea69d57c8bcec8d10e3b6aa9e414d) format("truetype");
+}
+
+.material-icons,
+.material-icons-two-tone,
+.material-icons-sharp,
+.material-icons-round,
+.material-icons-outlined {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+@font-face {
+  font-family: "Material Icons Outlined";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/vendor/material-icons/iconMaterialIconsOutlined-Regular.eot?31a438db38050277dbeb1f29bae9f681);
+  /* For IE6-8 */
+  src: local("Material Icons Outlined"), local("MaterialIconsOutlined-Regular"), url(/fonts/vendor/material-icons/iconMaterialIconsOutlined-Regular.woff2?7e988196bd1bfd8fe450dde5844ba8ab) format("woff2"), url(/fonts/vendor/material-icons/iconMaterialIconsOutlined-Regular.woff?1b1710da6349426884d05129e16ed844) format("woff"), url(/fonts/vendor/material-icons/iconMaterialIconsOutlined-Regular.otf?8be31b5bfa6802b24e49f4cb88b54718) format("opentype");
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons Outlined";
+}
+
+@font-face {
+  font-family: "Material Icons Round";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/vendor/material-icons/iconMaterialIconsRound-Regular.eot?06b9fb9fecbe6c2bb1b0bf2eeceda228);
+  /* For IE6-8 */
+  src: local("Material Icons Round"), local("MaterialIconsRound-Regular"), url(/fonts/vendor/material-icons/iconMaterialIconsRound-Regular.woff2?421badc32dd92c163c6d7c614fba685f) format("woff2"), url(/fonts/vendor/material-icons/iconMaterialIconsRound-Regular.woff?bf1d0521b4d4663c17a6bb7dc5e27390) format("woff"), url(/fonts/vendor/material-icons/iconMaterialIconsRound-Regular.otf?d283e90e36b77b49872a73f26463b8a9) format("opentype");
+}
+
+.material-icons-round {
+  font-family: "Material Icons Round";
+}
+
+@font-face {
+  font-family: "Material Icons Sharp";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/vendor/material-icons/iconMaterialIconsSharp-Regular.eot?1c579b12e59be6fa32a6c1f8760a27eb);
+  /* For IE6-8 */
+  src: local("Material Icons Sharp"), local("MaterialIconsSharp-Regular"), url(/fonts/vendor/material-icons/iconMaterialIconsSharp-Regular.woff2?f5689b5e62dff43a48eeaf4c92c5da3d) format("woff2"), url(/fonts/vendor/material-icons/iconMaterialIconsSharp-Regular.woff?c31894a7b9f7e7b001576f5c9b34ab37) format("woff"), url(/fonts/vendor/material-icons/iconMaterialIconsSharp-Regular.otf?7adf9434a424a43fc96e1dcbdc0f7e1a) format("opentype");
+}
+
+.material-icons-sharp {
+  font-family: "Material Icons Sharp";
+}
+
+@font-face {
+  font-family: "Material Icons Two Tone";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/vendor/material-icons/iconMaterialIconsTwoTone-Regular.eot?9fd12b38058f5db9d35647b03af5cbc3);
+  /* For IE6-8 */
+  src: local("Material Icons Two Tone"), local("MaterialIconsTwoTone-Regular"), url(/fonts/vendor/material-icons/iconMaterialIconsTwoTone-Regular.woff2?edfde2d771d9612a07faf531997b74b1) format("woff2"), url(/fonts/vendor/material-icons/iconMaterialIconsTwoTone-Regular.woff?3fe5914acc97a2d1ba5171ed578bad38) format("woff"), url(/fonts/vendor/material-icons/iconMaterialIconsTwoTone-Regular.otf?cf47e622d04aa476b511f1cac845487e) format("opentype");
+}
+
+.material-icons-two-tone {
+  font-family: "Material Icons Two Tone";
+}
+

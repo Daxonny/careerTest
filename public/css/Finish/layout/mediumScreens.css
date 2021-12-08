@@ -1,0 +1,12 @@
+@media screen and (max-width: 1000px) {
+	:root {
+		font-size: 10px;
+	}
+	header {
+		padding-left: 5rem;
+	}
+}
+
+#footer {
+	height: 100px;
+}

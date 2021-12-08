@@ -1,0 +1,54 @@
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}
+h1 {
+	font-size: 40px;
+	width: 350px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+h2 {
+	font-size: 30px;
+	padding: 10px;
+	width: 250px;
+	margin: auto;
+	text-align: center;
+}
+#generateCode {
+	border-bottom: 1px solid;
+	padding: 20px;
+}
+#generateCode form {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto 550px auto;
+	grid-gap: 20px;
+}
+#generateCode form label, output { 
+	grid-column: 2/3
+}
+#generateCode form button {
+	width: 200px;
+    height: 50px;
+    grid-column: 2/3;
+    margin: auto;
+    font-size: 20px;
+}
+#code {
+	border: 2px solid;
+	width: 130px;
+	margin: auto;
+	font-size: 60px;
+	text-align: center;
+}
+table {
+	width: 600px;
+	border: 2px solid;
+	text-align: left;
+	margin: auto;
+}
+td ,th {
+	border: 2px solid;
+}
