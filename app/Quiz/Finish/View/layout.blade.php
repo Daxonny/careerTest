@@ -36,20 +36,7 @@
 								alt="USA Flag"
 						/></a>
 					</li>
-					<li>
-						<a href="{{ dialect()->current('hr') }}"
-							><img
-								src="{{ asset('images/hr.svg') }}"
-								alt="Croatian Flag"
-						/></a>
-					</li>
-					<li>
-						<a href="{{ dialect()->current('el') }}"
-							><img
-								src="{{ asset('images/el.svg') }}"
-								alt="Greek Flag"
-						/></a>
-					</li>
+					
 				</ul>
 			</section>
 		</header>

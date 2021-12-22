@@ -17,7 +17,7 @@ return [
 	'french' => "French",
 	'german' => "German",
 	'macedonian' => "Macedonian",
-	'croatian' => "Croatian",
+	'albanian' => "Albanian",
 	'greek' => "Greek",
 	'dashboard' => "Dashboard",
 	'admin' => "Admin",

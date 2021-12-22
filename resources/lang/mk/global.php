@@ -17,7 +17,7 @@ return [
     'french' => "Француски",
     'german' => "Германски",
     'macedonian' => "Македонски",
-    'croatian' => "Хрватски",
+    'albanian' => "Албански",
 	'greek' => "Грчки",
     'dashboard' => "Панел",
     'admin' => "Админ",

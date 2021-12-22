@@ -44,14 +44,8 @@
 					<div class="dropdown-menu position-absolute" aria-labelledby="language-dropdown">
 						<a class="dropdown-item d-flex" href="{{ dialect()->current('mk') }}"><img src="{{ asset('images/mk.svg') }}" class="flag-width" alt="flag"> <span class="align-self-center">{{ __('global.macedonian') }}</span></a>
 						<a class="dropdown-item d-flex" href="{{ dialect()->current('en') }}"><img src="{{ asset('images/en.svg') }}" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;{{ __('global.english') }}</span></a>
-						<a class="dropdown-item d-flex" href="{{ dialect()->current('hr') }}"><img src="{{ asset('images/hr.svg') }}" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;{{ __('global.croatian') }}</span></a>
-						<a class="dropdown-item d-flex" href="{{ dialect()->current('el') }}"><img src="{{ asset('images/el.svg') }}" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;{{ __('global.greek') }}</span></a>
 					</div>
 				</li>
-
-
-
-
 
 			</ul>
 	</header>

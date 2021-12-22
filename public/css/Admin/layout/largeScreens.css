@@ -14,7 +14,7 @@
 #languages ul {
 	width: 12rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 #languages ul li img {
